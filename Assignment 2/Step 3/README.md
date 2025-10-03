@@ -19,22 +19,22 @@ This dual framework captures both extractive accuracy and semantic quality.
 ---
 ### Chain-of-Thought (CoT) Prompting
 
-- **Results:** EM: **0.11%**, F1: **11.87%**
+- **Results:** EM: **0.00%**, F1: **10.22%**
 - **Interpretation:** Poor lexical alignment, but semantically stronger. Multi-step reasoning led to hallucinations or verbose answers misaligned with concise gold annotations, yet grounded responses improved on faithfulness and relevance.
 
 ---
 ### Persona Prompting
 
-- **Results:** EM: **34.20%**, F1: **41.63%**
+- **Results:** EM: **26.91%**, F1: **34.09%**
 - **Interpretation:** Balanced approach. Comparable to Instruction in extractive accuracy but far stronger in semantic grounding. Persona framing encouraged faithful, contextually relevant responses without sacrificing accuracy.
 
 ---
 ### Summary Table
-| Strategy     | Exact Match (%) | F1 Score (%) | Faithfulness | Answer Relevancy |
-|--------------|-----------------|--------------|--------------|------------------|
-| Instruction  | 34.64           | 42.13        | 0.11         | 0.15             |
-| CoT          | 0.11            | 11.87        | 0.58         | 0.85             |
-| Persona      | 34.20           | 41.63        | 0.69         | 0.91             |
+| Strategy     | Exact Match (%) | F1 Score (%) | 
+|--------------|-----------------|--------------|
+| Instruction  | 34.64           | 42.13        | 
+| CoT          | 0.00            | 10.22        | 
+| Persona      | 26.91           | 34.09        |
 
 ---
 ### Conclusion
