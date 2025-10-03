@@ -1,0 +1,6 @@
+{
+  "strategy": "768d_top5_cot",
+  "exact_match": 0.0,
+  "f1_score": 7.270124760975834,
+  "num_queries": 918
+}

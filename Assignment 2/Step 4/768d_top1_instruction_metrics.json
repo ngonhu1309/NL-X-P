@@ -1,0 +1,6 @@
+{
+  "strategy": "768d_top1_instruction",
+  "exact_match": 33.98692810457516,
+  "f1_score": 41.66930066564278,
+  "num_queries": 918
+}
