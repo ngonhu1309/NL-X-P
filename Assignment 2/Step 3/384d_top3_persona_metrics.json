@@ -1,0 +1,6 @@
+{
+  "strategy": "384d_top3_persona",
+  "exact_match": 24.50980392156863,
+  "f1_score": 32.70060770910298,
+  "num_queries": 918
+}
