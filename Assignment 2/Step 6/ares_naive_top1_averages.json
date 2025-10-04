@@ -1,0 +1,9 @@
+{
+  "context_relevance": 0.6674954376319395,
+  "answer_relevance": 0.33925590514812076,
+  "answer_faithfulness": 0.3460264622359608,
+  "context_precision": 0.21518798865075095,
+  "context_recall": 0.26915395787944807,
+  "context_f1": 0.18125714172937749,
+  "num_queries": 918
+}

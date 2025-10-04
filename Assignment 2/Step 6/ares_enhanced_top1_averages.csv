@@ -1,0 +1,2 @@
+context_relevance,answer_relevance,answer_faithfulness,context_precision,context_recall,context_f1,num_queries
+0.6626437169079687,0.3439789154376096,0.3494636489404061,0.21085470432305656,0.2336225230833074,0.16616166379167233,918
